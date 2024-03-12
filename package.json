@@ -1,0 +1,43 @@
+{
+    "name": "chibii",
+    "version": "0.0.1",
+    "description": "A React wrapper for the Animejs animation library",
+    "main": "./dist/index.js",
+    "scripts": {
+        "dev": "tsc -w"
+    },
+    "type": "module",
+    "author": "Joshua Lawrence, Jr",
+    "license": "MIT",
+    "keywords": [
+        "animation",
+        "animations",
+        "ui",
+        "design",
+        "web design",
+        "development",
+        "react",
+        "animation library",
+        "animation engine",
+        "keyframes",
+        "react animation",
+        "react animation library",
+        "react animation engine",
+        "css animation",
+        "anime",
+        "animejs"
+    ],
+    "devDependencies": {
+        "@types/animejs": "^3.1.12",
+        "@types/node": "^20.11.26",
+        "@types/react": "^18.2.65",
+        "prettier": "^3.2.5",
+        "typescript": "^5.4.2"
+    },
+    "dependencies": {
+        "animejs": "^3.2.2"
+    },
+    "peerDependencies": {
+        "react": "^17 || ^18"
+    }
+}
