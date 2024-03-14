@@ -1,6 +1,6 @@
 {
     "name": "chibii",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "A React wrapper for the Animejs animation library",
     "main": "./dist/index.js",
     "scripts": {
@@ -35,7 +35,8 @@
         "typescript": "^5.4.2"
     },
     "dependencies": {
-        "animejs": "^3.2.2"
+        "animejs": "^3.2.2",
+        "react-scroll-percentage": "^4.3.2"
     },
     "peerDependencies": {
         "react": "^17 || ^18"
